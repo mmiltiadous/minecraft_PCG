@@ -10,7 +10,7 @@ Procedural Content Generation (PCG) in Minecraft as part of the Modern Game AI (
 minecraft-pcg/
 
 gdpc/
-  gdpc Python framework (local copy)
+  gdpc Python framework (copy)
 
   Myriana_Miltiadous/
     Generator implementation
