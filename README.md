@@ -1,29 +1,44 @@
-# minecraft-pcg
+# Minecraft-pcg
+
+## Description
  
-Procedural Content Generation (PCG) in Minecraft as part of the **Modern Game AI (MGAI)** course assignment. A Python-based house generator built with the [GDPC](https://github.com/avdstaaij/gdpc) framework, which interfaces with Minecraft Java Edition through the GDMC HTTP mod to place blocks and read terrain live while the game is running.
+Procedural Content Generation (PCG) in Minecraft as part of the Modern Game AI (MGAI) course assignment. A Python-based house generator built with the [GDPC](https://github.com/avdstaaij/gdpc) framework, which interfaces with Minecraft Java Edition through the GDMC HTTP mod to place blocks and read terrain live while the game is running.
 
  
-## Repository Structure
+##  Files
  
-```
 minecraft-pcg/
-├── gdpc/                                                  # GDPC Python framework (local copy)
-│   ├── Myriana_Miltiadous/                                # Generator implementation
-│   │   ├── myhomes.py                                     # Main house generation script
-│   │   ├── Mincraft_mgai_Myriana_Miltiadous_report.pdf    # Report
-│   │   └── Readme.docx
-│   ├── examples/                                # GDPC example scripts
-│   │   ├── emerald_city.py
-│   │   ├── quick_example.py
-│   │   ├── visualize_map.py
-│   │   └── tutorials/                           # Step-by-step GDPC tutorials (1–8)
-│   ├── gdpc/                                    # GDPC library source
-│   ├── requirements.txt
-│   └── setup.py
-├── gdmc_http_interface-1.0.0.jar               # GDMC HTTP Interface Minecraft mod
-├── mgai_a1.pdf                                 # Assignment 
-└── README.md
-```
+
+gdpc/
+  gdpc Python framework (local copy)
+
+  Myriana_Miltiadous/
+    Generator implementation
+    myhomes.py
+      Main house generation script
+    Mincraft_mgai_Myriana_Miltiadous_report.pdf
+      Report
+    Readme.docx
+
+  examples/
+    GDPC example scripts
+    emerald_city.py
+    quick_example.py
+    visualize_map.py
+    tutorials/
+      Step-by-step GDPC tutorials (1–8)
+
+  gdpc/
+    GDPC library source
+
+  requirements.txt
+  setup.py
+
+gdmc_http_interface-1.0.0.jar
+  GDMC HTTP Interface Minecraft mod
+
+mgai_a1.pdf
+  Assignment
 
  
 ## Overview
